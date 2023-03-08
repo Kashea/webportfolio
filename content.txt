@@ -29,7 +29,11 @@ When it comes to web development, creating a great user experience is essential.
 "I don't just build websites, I craft digital experiences with my full stack web development skills."
 As a full stack web developer, I approach web development as an art form. I don't just focus on the technical aspects of coding and programming, but also on the user experience and overall aesthetic of the website or web application. I believe that a great website should be visually appealing, easy to use, and engaging. That's why I take the time to carefully consider every aspect of the design, from the color scheme to the typography. I also understand the importance of creating a memorable and cohesive brand experience, which means that your website will not only look great, but will also reflect your company's values and messaging. By crafting digital experiences that are both functional and beautiful, I help my clients stand out in a crowded online marketplace.
 
+Portfolio Section captions:
 
+"From front-end to back-end, I've got it all covered. Check out my portfolio to see my full stack web development skills in action!"
+"Building beautiful, responsive websites is my passion. Take a sneak peek at my portfolio and see how I bring functionality and creativity together as a full stack web developer."
+"Want to see what a great full stack web developer can do? Look no further than my portfolio! Get a sneak peek of my work and see how I turn ideas into stunning digital experiences."
 
 
 Section About Me/Services:

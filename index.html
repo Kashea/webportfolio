@@ -38,53 +38,73 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
-    <div class="container">
+  <section id=rossrival>
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
+      <div class="container">
 
-      <!-- Navbar brand (mobile) -->
-      <a class="navbar-brand d-lg-none" href="./index.html">Rossrival</a>
+        <!-- Navbar brand (mobile) -->
+        <a class="navbar-brand d-lg-none" href="./index.html">Rossrival</a>
 
-      <!-- Navbar toggler -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Navbar collapse -->
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
 
-        <!-- Navbar nav -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " href="...">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="...">Skills & Services</a>
-          </li>
-        </ul>
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="...">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="...">Skills & Services</a>
+            </li>
+          </ul>
 
-        <!-- Navbar brand -->
-        <a class="navbar-brand d-none d-lg-flex mx-lg-auto active" href="./index.html">
-          Rossrival Moises Bendillo
-        </a>
+          <!-- Navbar brand -->
+          <div class="btn-group">
+            <button type="button" class="btn "><a class="navbar-brand d-none d-lg-flex mx-lg-auto active"
+                href="./index.html">
+                Rossrival Moises Bendillo
+              </a></button>
+            <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#rossrival">Home</a></li>
+              <li><a class="dropdown-item" href="#explore">Explore</a></li>
+              <li><a class="dropdown-item" href="#skills">Skills & Services</a></li>
+              <li><a class="dropdown-item" href="#gallery">Projects</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Resume</a></li>
+            </ul>
+          </div>
 
-        <!-- Navbar nav -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " href="...">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="contact.html">Contact</a>
-          </li>
-        </ul>
 
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </section>
 
   <!----------Sticky Navbar left--------------->
   <div class="navbar-left" ">
-    <a href=" #Ross" target="_blank"> <i class="fa-solid fa-registered "></i></a>
+    <a href=" #ross" target="_blank"> <i class="fa-solid fa-registered "></i></a>
     <a href="https://github.com/Kashea/" target="_blank"> <i class="fa-brands fa-github"> </i></a>
     <a href="https://www.facebook.com/rbendillo/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
     <a href="https://www.linkedin.com/in/rossrival-bendillo-96248b77/" target="_blank"> <i class="fa-brands fa-linkedin"
@@ -113,7 +133,8 @@
 
             <!-- Subheading -->
             <p class="text-center text-white-75 mb-7">
-              a full stack web developer with 1 year of experience building web applications from start to finish.
+              an aspiring full stack web developer with 1 year of experience building web applications from start to
+              finish.
               Whether you need a simple landing page or a complex web application, I have the skills to bring your
               project to life.
             </p>
@@ -257,7 +278,7 @@
   </section>
 
   <!-- MENU -->
-  <section class="py-7 py-md-9 border-bottom">
+  <section class="py-7 py-md-9 border-bottom" id="skills">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6 text-center">
@@ -1120,7 +1141,7 @@
   </section>
 
   <!-- Projects -->
-  <section class="py-7 py-md-9 overflow-hidden bg-light">
+  <section class="py-7 py-md-9 overflow-hidden bg-light" id="gallery">
 
     <div class="container">
       <div class="row justify-content-center">
@@ -1535,14 +1556,10 @@
     </div>
   </section>
 
-
-
   <!-- FOOTER -->
   <footer>
     <p class="lead text-center my-auto p-auto">&copy;Rossrival Moises Bendillo 2023</p>
   </footer>
-
-
 
   <!-- JAVASCRIPT -->
   <!-- Vendor JS -->
@@ -1554,14 +1571,6 @@
   <!-- Font-Awesome -->
   <script src="https://kit.fontawesome.com/6b50901590.js" crossorigin="anonymous"></script>
 
-  <script>
-    $(document).ready(function () {
-      $('#myModal').on('show.bs.modal', function (e) {
-        var img = $(e.relatedTarget).attr('href'); // get image with <a> tag
-        $('#showimg').attr('src', img); //load image in modal
-      });
-    });
-  </script>
 
 </body>
 

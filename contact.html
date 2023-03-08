@@ -31,49 +31,69 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
-    <div class="container">
+  <section id=rossrival>
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
+      <div class="container">
 
-      <!-- Navbar brand (mobile) -->
-      <a class="navbar-brand d-lg-none" href="./index.html">Rossrival</a>
+        <!-- Navbar brand (mobile) -->
+        <a class="navbar-brand d-lg-none" href="./index.html">Rossrival</a>
 
-      <!-- Navbar toggler -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Navbar collapse -->
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
 
-        <!-- Navbar nav -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " href="...">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="...">Skills & Services</a>
-          </li>
-        </ul>
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="...">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="...">Skills & Services</a>
+            </li>
+          </ul>
 
-        <!-- Navbar brand -->
-        <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="./index.html">
-          Rossrival Moises Bendillo
-        </a>
+          <!-- Navbar brand -->
+          <div class="btn-group">
+            <button type="button" class="btn "><a class="navbar-brand d-none d-lg-flex mx-lg-auto active"
+                href="./index.html">
+                Rossrival Moises Bendillo
+              </a></button>
+            <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#rossrival">Home</a></li>
+              <li><a class="dropdown-item" href="#explore">Explore</a></li>
+              <li><a class="dropdown-item" href="#skills">Skills & Services</a></li>
+              <li><a class="dropdown-item" href="#gallery">Projects</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Resume</a></li>
+            </ul>
+          </div>
 
-        <!-- Navbar nav -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " href="...">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
-          </li>
-        </ul>
 
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </section>
 
   <!-- HEADER -->
   <header data-jarallax data-speed=".8" style="background-image: url(assets/img/contact_banner.jpg);">
