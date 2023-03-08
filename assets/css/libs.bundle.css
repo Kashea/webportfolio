@@ -193,3 +193,22 @@ footer a {
   border: 1px solid #fff;
   padding: 5px 15px;
 }
+
+/* loading blurred bg */
+
+.bg {
+  /* Set rules to fill background */
+  min-height: 106%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 106%;
+  height: auto;
+  z-index: -1;
+  filter: blur(30px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: gray;
+}
